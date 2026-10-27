@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CodeNest Java Lab - Core Java practice questions</title>
+</head>
+<body id="home">
+<header class="topbar">
+    <a href="index.html" class="brand">CodeNest <span>Java Lab</span></a>
+    <nav>
+        <a href="index.html" data-page="home">Home</a>
+        <a href="topics.html" data-page="topics">Topics</a>
+        <button id="themeBtn" class="theme-btn" type="button">Dark mode</button>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div>
+            <h1>Every Java lab question, solved and explained</h1>
+            <p class="lead">Open a topic, read the program, then compare it with the console output. Your progress is saved in this browser.</p>
+            <div class="hero-actions">
+                <a class="btn" href="topics.html">Browse topics</a>
+            </div>
+            <p class="count-line"><b id="topicCount">0</b> topics, <b id="questionCount">0</b> questions</p>
+        </div>
+
+        <div class="sheet mini-sheet" aria-label="Sample practical file page">
+            <div class="entry">
+                <div class="entry-label">Aim</div>
+                <div class="entry-body"><p class="entry-title" id="heroTitle">Print Hello World</p></div>
+            </div>
+            <div class="entry">
+                <div class="entry-label">Program</div>
+                <div class="entry-body">
+                    <div class="code-box">
+                        <div class="code-bar"><span id="heroFile">Q001.java</span></div>
+                        <pre><code id="heroCode"></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">CodeNest Java Lab. Practice files for Core Java students.</footer>
+    <script src="js/data.js"></script>
+    <script src="js/topics/basic-program-constructs.js"></script>
+    <script src="js/topics/data-conversion.js"></script>
+    <script src="js/topics/exception-handling.js"></script>
+    <script src="js/topics/functions.js"></script>
+    <script src="js/topics/inheritance.js"></script>
+    <script src="js/topics/input-output.js"></script>
+    <script src="js/topics/interfaces.js"></script>
+    <script src="js/topics/multithreading.js"></script>
+    <script src="js/topics/object-oriented-programming.js"></script>
+    <script src="js/topics/packages.js"></script>
+    <script src="js/topics/single-dimension-arrays.js"></script>
+    <script src="js/topics/strings.js"></script>
+    <script src="js/topics/syllabus-questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

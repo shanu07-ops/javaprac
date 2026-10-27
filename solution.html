@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Solution - CodeNest Java Lab</title>
+</head>
+<body id="solution">
+<header class="topbar">
+    <a href="index.html" class="brand">CodeNest <span>Java Lab</span></a>
+    <nav>
+        <a href="index.html" data-page="home">Home</a>
+        <a href="topics.html" data-page="topics">Topics</a>
+        <button id="themeBtn" class="theme-btn" type="button">Dark mode</button>
+    </nav>
+</header>
+
+<main id="solutionMain">
+    <div class="crumbs">
+        <a href="topics.html">Topics</a> / <a id="crumbTopic" href="topics.html">Topic</a> / <span id="crumbQuestion">Question</span>
+    </div>
+
+    <div class="sol-top">
+        <a class="btn ghost" id="backBtn" href="topics.html">Back to questions</a>
+        <button class="btn ghost" id="doneBtn" type="button">Mark as done</button>
+    </div>
+
+    <article class="sheet">
+        <div class="entry">
+            <div class="entry-label" id="expNo">Experiment</div>
+            <div class="entry-body">
+                <div class="exp-head"><span class="file-name" id="fileTag">File.java</span></div>
+                <h1 class="sol-title" id="qTitle">Title</h1>
+            </div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-label">Aim</div>
+            <div class="entry-body"><p id="qDesc"></p></div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-label">Program</div>
+            <div class="entry-body">
+                <div class="code-box">
+                    <div class="code-bar">
+                        <span id="codeFile">File.java</span>
+                        <button class="copy-btn" id="copyBtn" type="button">Copy code</button>
+                    </div>
+                    <pre><code id="codeBox"></code></pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="entry" id="outputBox">
+            <div class="entry-label">Output</div>
+            <div class="entry-body"><img id="shot" class="shot" alt="Console output of the program"></div>
+        </div>
+
+        <div class="entry">
+            <div class="entry-label">Explanation</div>
+            <div class="entry-body"><p id="qExplain"></p></div>
+        </div>
+    </article>
+
+    <div class="sol-nav">
+        <a class="btn ghost" id="prevBtn" href="#">Previous question</a>
+        <a class="btn" id="nextBtn" href="#">Next question</a>
+    </div>
+</main>
+
+<footer class="footer">CodeNest Java Lab. Practice files for Core Java students.</footer>
+    <script src="js/data.js"></script>
+    <script src="js/topics/basic-program-constructs.js"></script>
+    <script src="js/topics/data-conversion.js"></script>
+    <script src="js/topics/exception-handling.js"></script>
+    <script src="js/topics/functions.js"></script>
+    <script src="js/topics/inheritance.js"></script>
+    <script src="js/topics/input-output.js"></script>
+    <script src="js/topics/interfaces.js"></script>
+    <script src="js/topics/multithreading.js"></script>
+    <script src="js/topics/object-oriented-programming.js"></script>
+    <script src="js/topics/packages.js"></script>
+    <script src="js/topics/single-dimension-arrays.js"></script>
+    <script src="js/topics/strings.js"></script>
+    <script src="js/topics/syllabus-questions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
